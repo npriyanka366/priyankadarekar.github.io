@@ -1,0 +1,48 @@
+# Site settings
+title: Dr. Priyanka Darekar
+description: >
+  Faculty Profile of Dr. Priyanka Darekar, Associate Professor in
+  Human Resource Management and General Management.
+author: Dr. Priyanka Darekar
+
+# GitHub Pages settings
+theme: minima
+markdown: kramdown
+
+# URL settings (update username & repo name)
+url: "https://your-username.github.io"
+baseurl: "/your-repo-name"   # leave blank if using username.github.io
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Minima theme options (keep academic & clean)
+minima:
+  skin: classic
+  social_links:
+    - platform: linkedin
+      user_url: "https://www.linkedin.com/in/priyanka-naik-darekar"
+
+# Header navigation (faculty-style)
+header_pages:
+  - index.md
+  - research.md
+  - publications.md
+  - teaching.md
+  - consultancy.md
+  - cv.md
+
+# Excerpts disabled (faculty pages don’t use blog style)
+show_excerpts: false
+
+# Footer
+footer:
+  copyright: "© Dr. Priyanka Darekar"
+
+# Exclude unnecessary files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
